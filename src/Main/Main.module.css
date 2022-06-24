@@ -6,6 +6,7 @@
 .text{
 width: 350px;
     background-color: lightgrey;
+    text-align: center;
 }
 .photo{
     width: 300px;

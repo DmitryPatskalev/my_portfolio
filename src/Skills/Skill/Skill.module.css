@@ -1,5 +1,5 @@
 .skill {
-    width: 250px;
+    width: 350px;
     background-color: lavender;
     display: flex;
     flex-direction: column;
@@ -8,8 +8,9 @@
 
 .icon {
     height: 60px;
-    width: 60px;
-    background-color: lightgray;
+    width: 120px;
+
+    /*background-color: lightgray;*/
 
 }
 .description{
