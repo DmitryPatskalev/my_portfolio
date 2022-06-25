@@ -1,10 +1,11 @@
 .navbar{
     display: flex;
     width: 500px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     font-size: 20px;
     font-weight: bold;
+    border: 1px solid;
 }
 .navbar a{
     text-decoration: none;

@@ -7,6 +7,7 @@
 .skillsContainer {
     flex-direction: column;
     justify-content: flex-start;
+
 }
 
 .title {
@@ -14,15 +15,16 @@
 }
 
 .skills {
-    /*border: 1px solid;*/
+    border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-top: 50px;
 
 }
-.html{
+.htmlLogo, .jsLogo, .reactLogo, .tsLogo, .nodeJSLogo, .pythonLogo{
     height: 60px;
-    width: 120px;
+    width: 100px;
 
 }
