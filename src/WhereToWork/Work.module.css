@@ -1,6 +1,5 @@
-
 .workBlock{
-    min-height: 40vh;
+    height: 40vh;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -9,8 +8,6 @@
     background-color: lemonchiffon;
 }
 .workContainer{
-    flex-direction: column;
-    justify-content: flex-start;
     border: 1px solid;
     width: 80%;
     text-align: center;
@@ -18,7 +15,12 @@
 
 .remote{
     background-color: lightblue;
+    font-size: 20px;
+    font-weight: bold;
 }
 .button{
     margin-top: 20px;
+    min-width: 100px;
+    height: 30px;
+
 }
