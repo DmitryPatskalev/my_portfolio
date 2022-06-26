@@ -11,11 +11,15 @@
     height: 60px;
     width: 100px;
 
-    /*background-color: lightgray;*/
-
 }
+
+.title{
+    background-color: lightblue;
+}
+
 .description{
     text-align: center;
     padding-top: 10px;
+    background-color: lightgreen;
 
 }

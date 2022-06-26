@@ -1,5 +1,5 @@
 .projects {
-    width: 300px;
+    width: 500px;
     background-color: lavender;
     display: flex;
     flex-direction: column;
@@ -14,4 +14,8 @@
 .title{
     font-size: 20px;
     font-weight: bold;
+    background-color: lightgreen;
+}
+.description{
+    background-color: lightpink;
 }

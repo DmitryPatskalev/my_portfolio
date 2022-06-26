@@ -7,7 +7,7 @@ const Project = (props) => {
     <div className={style.projects}>
       <div className={style.icon}>{props.logo}</div>
         <div className={style.title}>{props.title}</div>
-        <span>{props.description}</span>
+        <span className={style.description}>{props.description}</span>
       </div>
 
   );
