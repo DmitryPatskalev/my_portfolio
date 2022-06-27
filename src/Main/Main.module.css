@@ -11,5 +11,8 @@ width: 350px;
 .photo{
     width: 300px;
     height: 400px;
-    background-color: lightgrey;
+}
+.ava{
+    width: 300px;
+    height: 400px;
 }

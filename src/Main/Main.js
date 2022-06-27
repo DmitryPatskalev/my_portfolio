@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './Main.module.css'
 import styleContainer from './../Common/Styles/Container.module.css'
+import loki from './../Photo/loki.jpg'
 
 const Main = () => {
   return (
@@ -12,7 +13,7 @@ const Main = () => {
             <p>Front-end developer<br/>
               HTML/CSS/JS/REACT/TS</p>
         </div>
-        <div className={style.photo}></div>
+        <div className={style.photo}>{<img src={loki} alt='loki' className={style.ava}/>}</div>
       </div>
     </div>
   );
