@@ -1,18 +1,20 @@
 .mainBlock {
     height: 100vh;
-    background-color: aliceblue;
+    background-color: aquamarine;
 }
 
-.text{
-width: 350px;
+.text {
+    width: 350px;
     background-color: lightgrey;
     text-align: center;
 }
-.photo{
+
+.photo {
     width: 300px;
     height: 400px;
 }
-.ava{
+
+.ava {
     width: 300px;
     height: 400px;
 }
