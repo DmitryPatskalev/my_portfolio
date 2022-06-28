@@ -13,7 +13,7 @@ const Main = () => {
             <p>Front-end developer<br/>
               HTML/CSS/JS/REACT/TS</p>
           </div>
-          <div className={style.photo}>{<img src={loki} alt='loki' className={style.ava}/>}</div>
+        <div className={style.photo}>{<img src={loki} alt='loki' className={style.ava}/>}</div>
       </div>
     </div>
   );

@@ -5,18 +5,18 @@ import styleContainer from "../Common/Styles/Container.module.css";
 const Contact = () => {
   return (
     <div className={style.contactBlock}>
-      <div  className={`${styleContainer.container} ${style.contactContainer}`}>
+      <div className={`${styleContainer.container} ${style.contactContainer}`}>
         <h2 className={style.title}>Contact</h2>
-        <form className={style.form}>
+        <form>
           <div>
-            <div className={style.input1}>
-              <input type="text"/>
+            <div>
+              <input  className={style.input1} type="text"/>
             </div>
-            <div className={style.input2}>
-              <input type="text"/>
+            <div>
+              <input className={style.input2} type="text"/>
             </div>
-            <div className={style.textArea} >
-              <textarea>
+            <div>
+              <textarea  className={style.textArea} >
               </textarea>
             </div>
           </div>

@@ -1,14 +1,17 @@
 .mainBlock {
-    height: 100vh;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
     background-color: aquamarine;
+
 }
 
+
 .text {
-    width: 350px;
+    width: 340px;
     background-color: lightgrey;
     text-align: center;
 }
-
 .photo {
     width: 300px;
     height: 400px;

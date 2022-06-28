@@ -14,7 +14,7 @@ const Projects = () => {
         <h2 className={style.title}>My projects</h2>
         <div className={style.projectsList}>
           <Project
-            logo={<img src={todolist} className={style.todolist} alt='logo'/>}
+            logo={<img src={todolist} className={style.todolist} alt='logo' />}
             title='TodoList'
             description='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias asperiores deleniti ducimus eveniet
   expedita explicabo impedit iste necessitatibus nesciunt'
